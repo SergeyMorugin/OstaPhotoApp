@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F740C926D5320400BFC371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740C826D5320400BFC371 /* AppDelegate.swift */; };
+		34F740CB26D5320400BFC371 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740CA26D5320400BFC371 /* SceneDelegate.swift */; };
+		34F740CD26D5320400BFC371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740CC26D5320400BFC371 /* ViewController.swift */; };
+		34F740D026D5320500BFC371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F740CE26D5320500BFC371 /* Main.storyboard */; };
+		34F740D226D5320900BFC371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F740D126D5320900BFC371 /* Assets.xcassets */; };
+		34F740D526D5320900BFC371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F740D326D5320900BFC371 /* LaunchScreen.storyboard */; };
+		34F740E026D5320A00BFC371 /* OstaPhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740DF26D5320A00BFC371 /* OstaPhotoAppTests.swift */; };
+		34F740EB26D5320A00BFC371 /* OstaPhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740EA26D5320A00BFC371 /* OstaPhotoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F740DC26D5320A00BFC371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F740BD26D5320400BFC371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F740C426D5320400BFC371;
+			remoteInfo = OstaPhotoApp;
+		};
+		34F740E726D5320A00BFC371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F740BD26D5320400BFC371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F740C426D5320400BFC371;
+			remoteInfo = OstaPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34F740C526D5320400BFC371 /* OstaPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OstaPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F740C826D5320400BFC371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34F740CA26D5320400BFC371 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34F740CC26D5320400BFC371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34F740CF26D5320500BFC371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F740D126D5320900BFC371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F740D426D5320900BFC371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F740D626D5320900BFC371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F740DB26D5320A00BFC371 /* OstaPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OstaPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F740DF26D5320A00BFC371 /* OstaPhotoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OstaPhotoAppTests.swift; sourceTree = "<group>"; };
+		34F740E126D5320A00BFC371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F740E626D5320A00BFC371 /* OstaPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OstaPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F740EA26D5320A00BFC371 /* OstaPhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OstaPhotoAppUITests.swift; sourceTree = "<group>"; };
+		34F740EC26D5320A00BFC371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F740C226D5320400BFC371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F740D826D5320A00BFC371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F740E326D5320A00BFC371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F740BC26D5320400BFC371 = {
+			isa = PBXGroup;
+			children = (
+				34F740C726D5320400BFC371 /* OstaPhotoApp */,
+				34F740DE26D5320A00BFC371 /* OstaPhotoAppTests */,
+				34F740E926D5320A00BFC371 /* OstaPhotoAppUITests */,
+				34F740C626D5320400BFC371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F740C626D5320400BFC371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F740C526D5320400BFC371 /* OstaPhotoApp.app */,
+				34F740DB26D5320A00BFC371 /* OstaPhotoAppTests.xctest */,
+				34F740E626D5320A00BFC371 /* OstaPhotoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F740C726D5320400BFC371 /* OstaPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				34F740C826D5320400BFC371 /* AppDelegate.swift */,
+				34F740CA26D5320400BFC371 /* SceneDelegate.swift */,
+				34F740CC26D5320400BFC371 /* ViewController.swift */,
+				34F740CE26D5320500BFC371 /* Main.storyboard */,
+				34F740D126D5320900BFC371 /* Assets.xcassets */,
+				34F740D326D5320900BFC371 /* LaunchScreen.storyboard */,
+				34F740D626D5320900BFC371 /* Info.plist */,
+			);
+			path = OstaPhotoApp;
+			sourceTree = "<group>";
+		};
+		34F740DE26D5320A00BFC371 /* OstaPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F740DF26D5320A00BFC371 /* OstaPhotoAppTests.swift */,
+				34F740E126D5320A00BFC371 /* Info.plist */,
+			);
+			path = OstaPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		34F740E926D5320A00BFC371 /* OstaPhotoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34F740EA26D5320A00BFC371 /* OstaPhotoAppUITests.swift */,
+				34F740EC26D5320A00BFC371 /* Info.plist */,
+			);
+			path = OstaPhotoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F740C426D5320400BFC371 /* OstaPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F740EF26D5320A00BFC371 /* Build configuration list for PBXNativeTarget "OstaPhotoApp" */;
+			buildPhases = (
+				34F740C126D5320400BFC371 /* Sources */,
+				34F740C226D5320400BFC371 /* Frameworks */,
+				34F740C326D5320400BFC371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OstaPhotoApp;
+			productName = OstaPhotoApp;
+			productReference = 34F740C526D5320400BFC371 /* OstaPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F740DA26D5320A00BFC371 /* OstaPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F740F226D5320A00BFC371 /* Build configuration list for PBXNativeTarget "OstaPhotoAppTests" */;
+			buildPhases = (
+				34F740D726D5320A00BFC371 /* Sources */,
+				34F740D826D5320A00BFC371 /* Frameworks */,
+				34F740D926D5320A00BFC371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F740DD26D5320A00BFC371 /* PBXTargetDependency */,
+			);
+			name = OstaPhotoAppTests;
+			productName = OstaPhotoAppTests;
+			productReference = 34F740DB26D5320A00BFC371 /* OstaPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34F740E526D5320A00BFC371 /* OstaPhotoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F740F526D5320A00BFC371 /* Build configuration list for PBXNativeTarget "OstaPhotoAppUITests" */;
+			buildPhases = (
+				34F740E226D5320A00BFC371 /* Sources */,
+				34F740E326D5320A00BFC371 /* Frameworks */,
+				34F740E426D5320A00BFC371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F740E826D5320A00BFC371 /* PBXTargetDependency */,
+			);
+			name = OstaPhotoAppUITests;
+			productName = OstaPhotoAppUITests;
+			productReference = 34F740E626D5320A00BFC371 /* OstaPhotoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F740BD26D5320400BFC371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					34F740C426D5320400BFC371 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					34F740DA26D5320A00BFC371 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 34F740C426D5320400BFC371;
+					};
+					34F740E526D5320A00BFC371 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 34F740C426D5320400BFC371;
+					};
+				};
+			};
+			buildConfigurationList = 34F740C026D5320400BFC371 /* Build configuration list for PBXProject "OstaPhotoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F740BC26D5320400BFC371;
+			productRefGroup = 34F740C626D5320400BFC371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F740C426D5320400BFC371 /* OstaPhotoApp */,
+				34F740DA26D5320A00BFC371 /* OstaPhotoAppTests */,
+				34F740E526D5320A00BFC371 /* OstaPhotoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F740C326D5320400BFC371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F740D526D5320900BFC371 /* LaunchScreen.storyboard in Resources */,
+				34F740D226D5320900BFC371 /* Assets.xcassets in Resources */,
+				34F740D026D5320500BFC371 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F740D926D5320A00BFC371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F740E426D5320A00BFC371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F740C126D5320400BFC371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F740CD26D5320400BFC371 /* ViewController.swift in Sources */,
+				34F740C926D5320400BFC371 /* AppDelegate.swift in Sources */,
+				34F740CB26D5320400BFC371 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F740D726D5320A00BFC371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F740E026D5320A00BFC371 /* OstaPhotoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F740E226D5320A00BFC371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F740EB26D5320A00BFC371 /* OstaPhotoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F740DD26D5320A00BFC371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F740C426D5320400BFC371 /* OstaPhotoApp */;
+			targetProxy = 34F740DC26D5320A00BFC371 /* PBXContainerItemProxy */;
+		};
+		34F740E826D5320A00BFC371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F740C426D5320400BFC371 /* OstaPhotoApp */;
+			targetProxy = 34F740E726D5320A00BFC371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F740CE26D5320500BFC371 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F740CF26D5320500BFC371 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F740D326D5320900BFC371 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F740D426D5320900BFC371 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F740ED26D5320A00BFC371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34F740EE26D5320A00BFC371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F740F026D5320A00BFC371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRAL3CBVS6;
+				INFOPLIST_FILE = OstaPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morugins.OstaPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34F740F126D5320A00BFC371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRAL3CBVS6;
+				INFOPLIST_FILE = OstaPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morugins.OstaPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34F740F326D5320A00BFC371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRAL3CBVS6;
+				INFOPLIST_FILE = OstaPhotoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morugins.OstaPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OstaPhotoApp.app/OstaPhotoApp";
+			};
+			name = Debug;
+		};
+		34F740F426D5320A00BFC371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRAL3CBVS6;
+				INFOPLIST_FILE = OstaPhotoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morugins.OstaPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OstaPhotoApp.app/OstaPhotoApp";
+			};
+			name = Release;
+		};
+		34F740F626D5320A00BFC371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRAL3CBVS6;
+				INFOPLIST_FILE = OstaPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morugins.OstaPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OstaPhotoApp;
+			};
+			name = Debug;
+		};
+		34F740F726D5320A00BFC371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRAL3CBVS6;
+				INFOPLIST_FILE = OstaPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morugins.OstaPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OstaPhotoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F740C026D5320400BFC371 /* Build configuration list for PBXProject "OstaPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F740ED26D5320A00BFC371 /* Debug */,
+				34F740EE26D5320A00BFC371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F740EF26D5320A00BFC371 /* Build configuration list for PBXNativeTarget "OstaPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F740F026D5320A00BFC371 /* Debug */,
+				34F740F126D5320A00BFC371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F740F226D5320A00BFC371 /* Build configuration list for PBXNativeTarget "OstaPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F740F326D5320A00BFC371 /* Debug */,
+				34F740F426D5320A00BFC371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F740F526D5320A00BFC371 /* Build configuration list for PBXNativeTarget "OstaPhotoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F740F626D5320A00BFC371 /* Debug */,
+				34F740F726D5320A00BFC371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F740BD26D5320400BFC371 /* Project object */;
+}
