@@ -1,0 +1,32 @@
+### Headers settings
+company: Osta Inc.
+
+### Xcode project settings
+project_name: OstaPhotoApp
+xcodeproj_path: OstaPhotoApp.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: OstaPhotoApp
+
+# The file path for new modules
+project_file_path: OstaPhotoApp
+
+# The Xcode group path to new modules
+project_group_path: OstaPhotoApp
+
+### Tests generation settings section
+# The tests target name
+test_target: OstaPhotoAppTests
+
+# The file path for new tests
+test_file_path: OstaPhotoAppTests
+
+# The Xcode group path to new tests
+test_group_path: OstaPhotoAppTests
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
