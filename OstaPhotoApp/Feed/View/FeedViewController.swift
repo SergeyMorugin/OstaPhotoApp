@@ -13,7 +13,6 @@ class FeedViewController: UIViewController {
     let tableViewCellId = "feedItemCellId"
     @IBOutlet weak var tableView: UITableView!
     
-
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +21,6 @@ class FeedViewController: UIViewController {
         output.viewIsReady()
         tableView.delegate = self
         tableView.dataSource = self
-        
     }
 }
 
@@ -60,6 +58,5 @@ extension FeedViewController: UITableViewDataSource {
         cell.configure(by: feedItem)
         return cell
     }
-    
-    
+
 }

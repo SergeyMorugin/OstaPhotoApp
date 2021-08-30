@@ -7,12 +7,6 @@
 //
 
 protocol FeedViewOutput {
-
-    /**
-        @author Sergei Morugin
-        Notify presenter that view is ready
-    */
-
     func viewIsReady()
     
     var feedItemsCount: Int { get }

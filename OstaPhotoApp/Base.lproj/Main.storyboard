@@ -26,7 +26,21 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NkU-w2-ute" id="rDP-LG-waZ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="332"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nbg-cF-AbV">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="332"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="nbg-cF-AbV" secondAttribute="trailing" id="8nu-5C-B2U"/>
+                                                <constraint firstAttribute="bottom" secondItem="nbg-cF-AbV" secondAttribute="bottom" id="98V-ds-WEx"/>
+                                                <constraint firstItem="nbg-cF-AbV" firstAttribute="top" secondItem="rDP-LG-waZ" secondAttribute="top" id="L7H-RU-9c9"/>
+                                                <constraint firstItem="nbg-cF-AbV" firstAttribute="leading" secondItem="rDP-LG-waZ" secondAttribute="leading" id="kob-rg-qjH"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="resultImageView" destination="nbg-cF-AbV" id="K2m-ye-JgG"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import Kingfisher
 
 class FeedItemCell: UITableViewCell {
-
+    @IBOutlet weak var resultImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,7 +23,8 @@ class FeedItemCell: UITableViewCell {
     }
     
     func configure(by feedItem: FeedItem){
-        
+        let resultImageUrl = URL(string: feedItem.resultImage!)
+        resultImageView.kf.setImage(with: resultImageUrl)
     }
     
 }
