@@ -14,4 +14,7 @@ protocol FeedViewOutput {
     */
 
     func viewIsReady()
+    
+    var feedItemsCount: Int { get }
+    func feedItem(atIndex: Int) -> FeedItem?
 }

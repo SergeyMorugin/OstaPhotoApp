@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol FeedInteractorOutput: class {
-
+protocol FeedInteractorOutput: AnyObject {
+    func updateFeed(feedItems: [FeedItem])
 }

@@ -6,7 +6,7 @@
 //  Copyright © 2021 Osta Inc.. All rights reserved.
 //
 
-protocol FeedViewInput: class {
+protocol FeedViewInput: AnyObject {
 
     /**
         @author Sergei Morugin
@@ -14,4 +14,6 @@ protocol FeedViewInput: class {
     */
 
     func setupInitialState()
+    
+    func reloadData()
 }

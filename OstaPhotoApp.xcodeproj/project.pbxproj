@@ -14,9 +14,10 @@
 		25D2B53C0823A7A17F65E4CB /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86E090B76F7CD7BB445CB2 /* FeedRouter.swift */; };
 		2B63428974D631D97CD3DFF7 /* FeedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2D591E0839ACDDB7CE69C6 /* FeedConfigurator.swift */; };
 		2FB90AC3E246C4C457E8AFDB /* FeedConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3BFB912955CA75D62A220 /* FeedConfiguratorTests.swift */; };
+		342AFC2526DD44CE001C57C0 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342AFC2426DD44CE001C57C0 /* FeedItem.swift */; };
+		342AFC2726DD4F88001C57C0 /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342AFC2626DD4F88001C57C0 /* FeedItemCell.swift */; };
 		34F740C926D5320400BFC371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740C826D5320400BFC371 /* AppDelegate.swift */; };
 		34F740CB26D5320400BFC371 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740CA26D5320400BFC371 /* SceneDelegate.swift */; };
-		34F740CD26D5320400BFC371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F740CC26D5320400BFC371 /* ViewController.swift */; };
 		34F740D026D5320500BFC371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F740CE26D5320500BFC371 /* Main.storyboard */; };
 		34F740D226D5320900BFC371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F740D126D5320900BFC371 /* Assets.xcassets */; };
 		34F740D526D5320900BFC371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F740D326D5320900BFC371 /* LaunchScreen.storyboard */; };
@@ -57,10 +58,11 @@
 		0686CDCFAECF349A61002B93 /* FeedViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedViewOutput.swift; sourceTree = "<group>"; };
 		06CBAE812563E2D9D144062B /* FeedInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedInitializer.swift; sourceTree = "<group>"; };
 		2856F9E4642C8B0FBF3E8F98 /* FeedRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedRouterTests.swift; sourceTree = "<group>"; };
+		342AFC2426DD44CE001C57C0 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		342AFC2626DD4F88001C57C0 /* FeedItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCell.swift; sourceTree = "<group>"; };
 		34F740C526D5320400BFC371 /* OstaPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OstaPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F740C826D5320400BFC371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34F740CA26D5320400BFC371 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34F740CC26D5320400BFC371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34F740CF26D5320500BFC371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34F740D126D5320900BFC371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34F740D426D5320900BFC371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,7 +119,6 @@
 				8C553DB606609AF64FF4535F /* FeedInteractorOutput.swift */,
 				04FBCF083FD77830131417E7 /* FeedInteractor.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -127,8 +128,15 @@
 				FE2D591E0839ACDDB7CE69C6 /* FeedConfigurator.swift */,
 				06CBAE812563E2D9D144062B /* FeedInitializer.swift */,
 			);
-			name = Configurator;
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		342AFC2326DD44B5001C57C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				342AFC2426DD44CE001C57C0 /* FeedItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		34F740BC26D5320400BFC371 = {
@@ -156,12 +164,12 @@
 			children = (
 				34F740C826D5320400BFC371 /* AppDelegate.swift */,
 				34F740CA26D5320400BFC371 /* SceneDelegate.swift */,
-				34F740CC26D5320400BFC371 /* ViewController.swift */,
 				34F740CE26D5320500BFC371 /* Main.storyboard */,
 				34F740D126D5320900BFC371 /* Assets.xcassets */,
 				34F740D326D5320900BFC371 /* LaunchScreen.storyboard */,
 				34F740D626D5320900BFC371 /* Info.plist */,
 				C1F0378FDFB3562D1667BFB1 /* Feed */,
+				342AFC2326DD44B5001C57C0 /* Models */,
 			);
 			path = OstaPhotoApp;
 			sourceTree = "<group>";
@@ -191,8 +199,8 @@
 				E3319DCF367099122E907D78 /* FeedViewInput.swift */,
 				0686CDCFAECF349A61002B93 /* FeedViewOutput.swift */,
 				F482DAE269559EEF139F3D95 /* FeedViewController.swift */,
+				342AFC2626DD4F88001C57C0 /* FeedItemCell.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -201,7 +209,6 @@
 			children = (
 				2856F9E4642C8B0FBF3E8F98 /* FeedRouterTests.swift */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -210,7 +217,6 @@
 			children = (
 				3A59A6F133A4A9B74DD6822C /* FeedInteractorTests.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -223,7 +229,6 @@
 				D940F5728AEB910E02C225ED /* Presenter */,
 				4DED1B920036B6F82677C80C /* Router */,
 			);
-			name = Feed;
 			path = Feed;
 			sourceTree = "<group>";
 		};
@@ -233,7 +238,6 @@
 				F927A53D6266AE360539FF1C /* FeedRouterInput.swift */,
 				CF86E090B76F7CD7BB445CB2 /* FeedRouter.swift */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -242,7 +246,6 @@
 			children = (
 				D2A3BFB912955CA75D62A220 /* FeedConfiguratorTests.swift */,
 			);
-			name = Configurator;
 			path = Configurator;
 			sourceTree = "<group>";
 		};
@@ -255,7 +258,6 @@
 				98E6CB436CE1728A00D11D60 /* Router */,
 				2813469BEBF2E50919C745B5 /* Configurator */,
 			);
-			name = Feed;
 			path = Feed;
 			sourceTree = "<group>";
 		};
@@ -265,7 +267,6 @@
 				90A596110971A8AAEE12A4ED /* FeedModuleInput.swift */,
 				64B9094E98FFB602ED5C4FA9 /* FeedPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -274,7 +275,6 @@
 			children = (
 				87DDB10D65A72C91769673C7 /* FeedPresenterTests.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -283,7 +283,6 @@
 			children = (
 				C2B5F6D08B70A30572A2BBC6 /* FeedViewTests.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -417,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F740CD26D5320400BFC371 /* ViewController.swift in Sources */,
+				342AFC2726DD4F88001C57C0 /* FeedItemCell.swift in Sources */,
 				34F740C926D5320400BFC371 /* AppDelegate.swift in Sources */,
 				34F740CB26D5320400BFC371 /* SceneDelegate.swift in Sources */,
 				7C59CC373FB8DECA2C9C2A9D /* FeedViewInput.swift in Sources */,
@@ -426,6 +425,7 @@
 				8AF622F6E029D4A0807CCCBE /* FeedModuleInput.swift in Sources */,
 				01B94BCCA2DFE957F20C1D22 /* FeedPresenter.swift in Sources */,
 				038A262FE2FC0E57AB92F972 /* FeedInteractorInput.swift in Sources */,
+				342AFC2526DD44CE001C57C0 /* FeedItem.swift in Sources */,
 				645F1E338EC3223B1D917DE8 /* FeedInteractorOutput.swift in Sources */,
 				EE333545249E7B1137D3F4A2 /* FeedInteractor.swift in Sources */,
 				CB07D2D4C9E42E551F872BF6 /* FeedRouterInput.swift in Sources */,
